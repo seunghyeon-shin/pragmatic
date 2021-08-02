@@ -1,6 +1,6 @@
 from django.forms import ModelForm
 
-from practice.profileapp.models import Profile
+from .models import Profile
 
 
 class ProfileCreationForm(ModelForm):
